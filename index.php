@@ -18,6 +18,7 @@
 <hr>
 <h3 id="data"></h3>
 <p id="list"></p>
+<h4 id="error"></h4>
 
 
 <script type="text/javascript">
@@ -38,6 +39,7 @@
             error: function(error) {
                 $('#data').text('Response Error => ' + url);
                 $('#list').text(error.statusText != 'error' ? error.statusText : "Blocked by CORS policy");
+                $('#error').text('Open your Console');
             },
         });
     });
