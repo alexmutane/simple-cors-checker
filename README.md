@@ -7,5 +7,3 @@ My little tweaks on the idea:
 - Added a Form with an input
 - Organized success and error messages on the page
 - Check the returned data on the page and also on the console.
-
-(Credits to: ItSolutionStuff.com)
